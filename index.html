@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my personal portfolio website</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/9acf17c8c7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jfif" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header" >Home</a></li>
+                    <li><a href="#about" >About</a></li>
+                    <li><a href="#services" >Services</a></li>
+                    <li><a href="#portfolio" >Portfolio</a></li>
+                    <li><a href="#contact" >Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I`m <span> Rumaiq</span><br> Arif from Kashmir</h1>
+
+            </div>
+        </div>
+    </div>
+   <!--------About------->
+    <div id="about">
+        <div class="container">
+         <div class="row">
+            <div class="about-col-1">
+                <img src="rumaiqphoto.jfif" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hey! wassup guys? it`s me Rumaiq Arif, I`m a programmer,Gamer,vedio editor &
+                 Graphic Designer.I`m 18. I live in sopore,kashmir.I like playing pubg,cricket,football,
+                 and other games. Thank you...</p>
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" >EDUCATION</p>
+                    
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>current</span><br>Bachelor of computer applications at Gdc baramulla </li>
+                        <li><span>2020</span><br>comleted 12th from BHSS sopore in medical</li>
+                        <li><span>2019</span><br>completed 10th from MMHS sopore</li>
+                      </ul>
+
+                 </div>
+            </div>
+         </div>
+        </div>
+    </div>
+  <!--------SERVICES--------->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title"> MY SERVICES</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Plan, create and code internet sites and web pages and combine text with sounds, pictures,graphics and vedio clips</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>create user interface for an app, website, or other interactive media</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p> Gathering requirements from business systems analysts and end users</p>
+                <a href="#">Learn More</a>
+            </div>
+
+        </div>
+
+    </div>
+  </div>
+  <!-------portfolio------>
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> MY WORK</h1>
+        <div class="work-list">
+        <div class="work">
+            <img src="work1.jfif" >
+            <div class="layer">
+                <h3>Shopping interface</h3>
+                <p>i maked this medical interface using html and css </p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="work2.jfif" >
+            <div class="layer">
+                <h3>Otp interface</h3>
+                <p>i maked this login interface of app using html and css </p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="work3.jfif" >
+            <div class="layer">
+                <h3>payment interface</h3>
+                <p>i build this online payment  interface also  using html and css </p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+
+</div>
+  </div>
+  <!--------contact---------->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p> <i class="fa-solid fa-envelope"></i> warrumaiq@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> 9149625459</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/rumaiq.war.3"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/rum_aiq/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/rumaiqarif"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/mwlite/in/rumaiq-ahmad-72b4b6251"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download Cv</a>
+            </div>
+            
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="YOUR Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright by rumaiq<i class="fa-solid fa-heart"></i></p>
+    </div>
+  </div>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right ="0"
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px"
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz8H-_LF5059hY-rSFRvIroips10MpVtAB9X-FefTs-cZ-_MdQ1MnmhbJuke-S_UCGJ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
